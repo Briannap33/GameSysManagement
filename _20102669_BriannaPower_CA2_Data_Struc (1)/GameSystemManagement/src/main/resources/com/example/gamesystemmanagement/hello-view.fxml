@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.gamesystemmanagement.controllers.GameController">
+
+    <HBox spacing="10">
+        <ListView fx:id="gameList" prefHeight="200.0" prefWidth="200.0" />
+        <VBox spacing="10">
+            <TextField fx:id="gameName" promptText="Name" />
+            <TextField fx:id="gameGenre" promptText="Genre" />
+            <TextField fx:id="gamePrice" promptText="Price" />
+            <TextField fx:id="gameRating" promptText="Rating" />
+            <TextField fx:id="machineDevelopedFor" promptText="Machine Developed For" />
+            <TextField fx:id="releaseYear" promptText="Release Year" />
+            <TextField fx:id="coverImageURL" promptText="Cover Image URL" />
+        </VBox>
+    </HBox>
+
+    <HBox spacing="10">
+        <Button text="Add" onAction="#onAddButtonClick" />
+        <Button text="Delete" onAction="#onRemoveButtonClick" />
+        <Button text="Edit" onAction="#onEditButtonClick" />
+        <Button text="Search" onAction="#onSearchButtonClick" />
+        <Button text="Clear" onAction="#onClearButtonClick" />
+        <Button text="Go to Another Page" onAction="#navigateToAnotherPage" />
+    </HBox>
+
+</VBox>

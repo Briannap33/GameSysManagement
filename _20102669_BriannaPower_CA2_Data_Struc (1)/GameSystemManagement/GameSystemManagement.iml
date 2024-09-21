@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_9">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="jdk" jdkName="19 (2)" jdkType="JavaSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="javafx-sdk-21" level="project" />
+    <orderEntry type="library" exported="" name="lib" level="project" />
+    <orderEntry type="module-library" exported="" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../javafx-sdk-21/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <NATIVE>
+          <root url="file://$MODULE_DIR$/../../javafx-sdk-21/lib" />
+        </NATIVE>
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../javafx-sdk-21/lib" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-controls:17.0.2" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-controls:mac:17.0.2" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-graphics:17.0.2" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-graphics:mac:17.0.2" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-base:17.0.2" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-base:mac:17.0.2" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-fxml:17.0.2" level="project" />
+    <orderEntry type="library" name="Maven: org.openjfx:javafx-fxml:mac:17.0.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.junit.jupiter:junit-jupiter-api:5.8.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.opentest4j:opentest4j:1.2.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.junit.platform:junit-platform-commons:1.8.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apiguardian:apiguardian-api:1.1.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.junit.jupiter:junit-jupiter-engine:5.8.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.junit.platform:junit-platform-engine:1.8.2" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.npm:material__textfield:14.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.npm:material__feature-targeting:14.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.npm:material__line-ripple:14.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.npm:material__notched-outline:14.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.npm:material__base:14.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.npm:tslib:2.6.2" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.npm:material__shape:14.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.npm:material__tokens:14.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.npm:material__elevation:14.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.npm:material__floating-label:14.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.npm:material__density:14.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.npm:material__theme:14.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.npm:material__dom:14.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.npm:material__rtl:14.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.npm:material__typography:14.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.npm:material__ripple:14.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.npm:material__animation:14.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains.compose.runtime:runtime:1.4.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.jetbrains.kotlinx:atomicfu:0.17.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.jetbrains.kotlinx:atomicfu-jvm:0.17.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.jetbrains.kotlin:kotlin-stdlib:1.6.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.jetbrains:annotations:13.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.6.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.21" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.21" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains.compose.html:html-core:1.4.1" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-stdlib-js:1.8.20" level="project" />
+    <orderEntry type="library" name="Maven: org.jetbrains.kotlin:kotlin-stdlib-common:1.8.20" level="project" />
+    <orderEntry type="library" name="javafx-sdk-21.0" level="project" />
+  </component>
+</module>

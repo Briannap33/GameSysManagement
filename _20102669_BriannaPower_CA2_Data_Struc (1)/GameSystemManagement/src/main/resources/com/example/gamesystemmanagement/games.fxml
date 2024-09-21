@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="350.0" prefWidth="462.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gamesystemmanagement.controllers.GameController">
+    <children>
+        <HBox layoutX="40.0" layoutY="20.0" spacing="10">
+            <ListView fx:id="gameList" prefHeight="200.0" prefWidth="200.0" />
+            <VBox spacing="10">
+                <TextField fx:id="gameName" promptText="Name" />
+                <TextField fx:id="gameGenre" promptText="Genre" />
+                <TextField fx:id="gamePrice" promptText="Price" />
+                <TextField fx:id="gameRating" promptText="Rating" />
+                <TextField fx:id="machineDevelopedFor" promptText="Machine Developed For" />
+                <TextField fx:id="releaseYear" promptText="Release Year" />
+                <TextField fx:id="coverImageURL" promptText="Cover Image URL" />
+            </VBox>
+        </HBox>
+        <HBox layoutX="46.0" layoutY="316.0" spacing="10">
+            <Button onAction="#onAddButtonClick" text="Add" />
+            <Button onAction="#onRemoveButtonClick" text="Delete" />
+            <Button onAction="#onEditButtonClick" text="Edit" />
+            <Button onAction="#onSearchButtonClick" text="Search" />
+            <Button onAction="#onClearButtonClick" text="Clear" />
+        </HBox>
+    </children>
+</AnchorPane>

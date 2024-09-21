@@ -1,0 +1,41 @@
+.star {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    color: #FFFFFF;
+    border-radius: 50%;
+    animation: fall linear infinite;
+}
+
+@keyframes fall {
+    0% {
+        transform: translateY(-100vh);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(100vh);
+        opacity: 1;
+    }
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+.star:nth-child(1) {
+    left: 5%;
+    animation-duration: 2s;
+}
+
+.star:nth-child(2) {
+    left: 15%;
+    animation-duration: 3s;
+}
+
+.star:nth-child(3) {
+    left: 25%;
+    animation-duration: 4s;
+}
+
+
